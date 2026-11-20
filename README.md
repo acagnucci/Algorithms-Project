@@ -1,10 +1,14 @@
 # Algorithms Project: Cryptocurrency Price Analysis
 
-Group project for the **Algorithms 2022/2023** course of the BSc in Management and Computer Science at LUISS Guido Carli (Rome).
+A project I built with three classmates in early 2023 for the **Algorithms** course (academic year 2022/2023) of the BSc in Management and Computer Science at LUISS Guido Carli in Rome.
 
-The assignment was to analyse a dataset of daily cryptocurrency prices using algorithms written by hand, in plain Python, without pandas or the built-in sort.
+**Team:** Antonio Cagnucci, Santiago Cuesta, Gianfranco Pizzuto, Petar Jelusic
 
-**Team:** Antonio Cagnucci, Santiago Cuesta, Gianfranco Pizzuto, Peter Jelusic
+## Purpose
+
+The goal was to take the algorithms from the course out of the textbook and apply them to real data. We were given about 120,000 daily price records for 98 cryptocurrencies and had to answer a series of questions about them: price statistics over a period, sorting the whole dataset, finding the best day in a month, finding the price closest to a target, and mapping which cryptocurrencies move independently of each other.
+
+We wrote every algorithm by hand in plain Python, with no external libraries; the sorting task explicitly banned pandas and the built-in sort. That meant implementing merge sort ourselves, computing Pearson correlation from scratch, building a minimum spanning tree with Prim's algorithm and traversing it with breadth-first search. Each function was graded on correctness and on running time against datasets of increasing size.
 
 ## What is implemented
 
